@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/bgi" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:paddingBottom="20dp"
+            android:text="Hikers Watch"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/latTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:text="Latitude: "
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/longTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:text="Longitude: "
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/accTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:text="Accuracy: "
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/altTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:text="Altitude: "
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/addressTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:text="Address: "
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+
+
+    </LinearLayout>
+</RelativeLayout>
